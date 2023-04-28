@@ -1,0 +1,99 @@
+*~
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### target files ###
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.metadata
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+*.iws
+*.ipr
+*.bak
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### plugin release file ###
+*.zip
+*.zip.sha1
+ 
+#### .gitignore for java ###
+*.class
+
+### classes file ###
+classes
+
+### Package Files ####
+*.war
+*.ear
+
+### Folder config file ###
+Desktop.ini
+ 
+### Recycle Bin used on file shares ###
+$RECYCLE.BIN/
+ 
+### .gitignore for mac os x ###
+.DS_Store
+
+### Thumbnails ###
+._*
+
+### dic file ###
+**/src/main/webapp/dic/*.xml
+
+### language ###
+**/src/main/webapp/language/backstage_language_en.json
+**/src/main/webapp/language/backstage_language_zh.json
+**/src/main/webapp/language/language_zh.json
+**/src/main/webapp/language/language_en.json
+
+
+### rebel ###
+rebel.xml
+.rebel.xml.bak
+
+### yarn & package ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+selenium-debug.log
+.history/
+package.json.rej
+package-lock.json
+
+
+### Editor directories and files ###
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+### Log ###
+logs/
